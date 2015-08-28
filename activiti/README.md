@@ -14,3 +14,5 @@ Activiti processes are modeled using an Eclipse plugin and managed using a simpl
 This presentation will be an overview of Activiti and the concepts involved, followed by a demo of how to model, deploy, execute, and monitor a process. 
 
 http://www.slideshare.net/TravisCarlson/activiti-a-developerfriendly-process-engine
+
+![process](RealtorProcess.jpg)
