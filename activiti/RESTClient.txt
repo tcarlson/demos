@@ -1,0 +1,19 @@
+Some example calls to the REST API
+----------------------------------
+
+Note: All requests need a Basic Authentication Header:
+  Authorization: Basic a2VybWl0Omtlcm1pdA==
+
+List Deployments
+  GET http://localhost:8080/activiti-rest/service/repository/deployments
+
+List Pending Tasks
+  GET http://localhost:8080/activiti-rest/service/runtime/tasks
+
+Complete a Task
+  POST http://localhost:8080/activiti-rest/service/runtime/tasks/1303
+  {
+    "action" : "complete",
+    "variables" : [ {"name" : "name", "value" : "travis"}, {"name" : "ssn", "value" : 12345} ]
+  }
+  
